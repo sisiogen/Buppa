@@ -22,6 +22,18 @@
 		40154837180D24CA002F1077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40154816180D24CA002F1077 /* UIKit.framework */; };
 		4015483F180D24CA002F1077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4015483D180D24CA002F1077 /* InfoPlist.strings */; };
 		40154841180D24CA002F1077 /* BuppaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40154840180D24CA002F1077 /* BuppaTests.m */; };
+		4015484E180D25BD002F1077 /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4015484B180D25BD002F1077 /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4015484F180D25BD002F1077 /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4015484B180D25BD002F1077 /* GTMOAuthAuthentication.m */; };
+		40154850180D25BD002F1077 /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4015484D180D25BD002F1077 /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40154851180D25BD002F1077 /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4015484D180D25BD002F1077 /* GTMOAuthSignIn.m */; };
+		40154855180D25F5002F1077 /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 40154853180D25F5002F1077 /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		40154856180D25F5002F1077 /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 40154853180D25F5002F1077 /* GTMOAuthViewControllerTouch.m */; };
+		40154857180D25F5002F1077 /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40154854180D25F5002F1077 /* GTMOAuthViewTouch.xib */; };
+		40154858180D25F5002F1077 /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40154854180D25F5002F1077 /* GTMOAuthViewTouch.xib */; };
+		4015485B180D261B002F1077 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4015485A180D261B002F1077 /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4015485C180D261B002F1077 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4015485A180D261B002F1077 /* GTMHTTPFetcher.m */; };
+		4015485E180D27B4002F1077 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4015485D180D27B4002F1077 /* Security.framework */; };
+		40154860180D27BC002F1077 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4015485F180D27BC002F1077 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +68,17 @@
 		4015483C180D24CA002F1077 /* BuppaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuppaTests-Info.plist"; sourceTree = "<group>"; };
 		4015483E180D24CA002F1077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40154840180D24CA002F1077 /* BuppaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuppaTests.m; sourceTree = "<group>"; };
+		4015484A180D25BD002F1077 /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
+		4015484B180D25BD002F1077 /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
+		4015484C180D25BD002F1077 /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
+		4015484D180D25BD002F1077 /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
+		40154852180D25F5002F1077 /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
+		40154853180D25F5002F1077 /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
+		40154854180D25F5002F1077 /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
+		40154859180D261B002F1077 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		4015485A180D261B002F1077 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		4015485D180D27B4002F1077 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4015485F180D27BC002F1077 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40154860180D27BC002F1077 /* SystemConfiguration.framework in Frameworks */,
+				4015485E180D27B4002F1077 /* Security.framework in Frameworks */,
 				40154815180D24CA002F1077 /* CoreGraphics.framework in Frameworks */,
 				40154817180D24CA002F1077 /* UIKit.framework in Frameworks */,
 				40154813180D24CA002F1077 /* Foundation.framework in Frameworks */,
@@ -104,6 +129,8 @@
 		40154811180D24CA002F1077 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4015485F180D27BC002F1077 /* SystemConfiguration.framework */,
+				4015485D180D27B4002F1077 /* Security.framework */,
 				40154812180D24CA002F1077 /* Foundation.framework */,
 				40154814180D24CA002F1077 /* CoreGraphics.framework */,
 				40154816180D24CA002F1077 /* UIKit.framework */,
@@ -115,6 +142,15 @@
 		40154818180D24CA002F1077 /* Buppa */ = {
 			isa = PBXGroup;
 			children = (
+				40154852180D25F5002F1077 /* GTMOAuthViewControllerTouch.h */,
+				40154853180D25F5002F1077 /* GTMOAuthViewControllerTouch.m */,
+				40154854180D25F5002F1077 /* GTMOAuthViewTouch.xib */,
+				40154859180D261B002F1077 /* GTMHTTPFetcher.h */,
+				4015485A180D261B002F1077 /* GTMHTTPFetcher.m */,
+				4015484A180D25BD002F1077 /* GTMOAuthAuthentication.h */,
+				4015484B180D25BD002F1077 /* GTMOAuthAuthentication.m */,
+				4015484C180D25BD002F1077 /* GTMOAuthSignIn.h */,
+				4015484D180D25BD002F1077 /* GTMOAuthSignIn.m */,
 				40154821180D24CA002F1077 /* AppDelegate.h */,
 				40154822180D24CA002F1077 /* AppDelegate.m */,
 				40154824180D24CA002F1077 /* Main.storyboard */,
@@ -234,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4015482E180D24CA002F1077 /* Images.xcassets in Resources */,
+				40154857180D25F5002F1077 /* GTMOAuthViewTouch.xib in Resources */,
 				4015481D180D24CA002F1077 /* InfoPlist.strings in Resources */,
 				40154826180D24CA002F1077 /* Main.storyboard in Resources */,
 			);
@@ -244,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4015483F180D24CA002F1077 /* InfoPlist.strings in Resources */,
+				40154858180D25F5002F1077 /* GTMOAuthViewTouch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				40154823180D24CA002F1077 /* AppDelegate.m in Sources */,
+				4015484E180D25BD002F1077 /* GTMOAuthAuthentication.m in Sources */,
 				40154829180D24CA002F1077 /* MasterViewController.m in Sources */,
 				4015481F180D24CA002F1077 /* main.m in Sources */,
+				4015485B180D261B002F1077 /* GTMHTTPFetcher.m in Sources */,
+				40154850180D25BD002F1077 /* GTMOAuthSignIn.m in Sources */,
 				4015482C180D24CA002F1077 /* DetailViewController.m in Sources */,
+				40154855180D25F5002F1077 /* GTMOAuthViewControllerTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4015484F180D25BD002F1077 /* GTMOAuthAuthentication.m in Sources */,
+				40154851180D25BD002F1077 /* GTMOAuthSignIn.m in Sources */,
 				40154841180D24CA002F1077 /* BuppaTests.m in Sources */,
+				40154856180D25F5002F1077 /* GTMOAuthViewControllerTouch.m in Sources */,
+				4015485C180D261B002F1077 /* GTMHTTPFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
